@@ -1,3 +1,4 @@
+package Ejercicios_De_Clase;
 import java.util.Scanner;
 public class Ej4 {
 	static Scanner entrada= new Scanner(System.in);
