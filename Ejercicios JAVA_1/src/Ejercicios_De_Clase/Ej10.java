@@ -16,9 +16,9 @@ public class Ej10 {
 		for (int i =0;i<=altura;i++) {
 			for(int j = 0;j<=i;j++) {
 			if (j==0||i == j || i==altura) {
-				System.out.print("* ");
+				System.out.print("*");
 			}else{
-				System.out.print("  ");
+				System.out.print(" ");
 			}
 			
 			
