@@ -2,6 +2,10 @@ package POO;
 
 public class Persona {
 	int edad;
+	double altura;
+	int peso;
+	boolean pelo;
+	String voz;
 	public Persona(int edad, double altura, int peso, boolean pelo, String voz) {
 		super();
 		this.edad = edad;
@@ -10,10 +14,6 @@ public class Persona {
 		this.pelo = pelo;
 		this.voz = voz;
 	}
-	double altura;
-	int peso;
-	boolean pelo;
-	String voz;
 	public int getEdad() {
 		return edad;
 	}
@@ -44,6 +44,8 @@ public class Persona {
 	public void setVoz(String voz) {
 		this.voz = voz;
 	}
-	
+	public String toString() {
+		return "La persona tiene de edad " + edad + " años, altura=" + altura + " m, peso=" + peso + " kg, pelo=" + pelo + ", voz=" + voz+ ". ";
+	}
 
 }
