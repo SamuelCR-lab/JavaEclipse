@@ -6,7 +6,7 @@ public class Profesor {
 	String Apellidos;
 	int Salario;
 	int Nºasignaturas;
-	boolean Tutor;
+	private boolean Tutor;
 	
 	public Profesor(String dNI, String nombre, String apellidos, int salario, int nºasignaturas, boolean tutor) {
 		super();
@@ -54,5 +54,5 @@ public class Profesor {
 	public void setTutor(boolean tutor) {
 		Tutor = tutor;
 	}
-	
+
 }

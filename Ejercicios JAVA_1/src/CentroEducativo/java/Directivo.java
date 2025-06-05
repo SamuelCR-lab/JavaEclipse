@@ -54,6 +54,6 @@ public class Directivo {
 	public void setTurnoMT(turno turnoMT) {
 		this.turnoMT = turnoMT;
 	}
-	
+
 	
 }
